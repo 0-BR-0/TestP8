@@ -6,23 +6,24 @@ import GithubWhite from '@src/assets/img/github-mark-white.svg';
 import GithubBlack from '@src/assets/img/github-mark.svg';
 
 
+const base = import.meta.env.BASE_URL;
 const menu = [
   {
-		link: `${import.meta.env.BASE_URL}about/,
-		label: 'About'
-	},
-	{
-		link: `${import.meta.env.BASE_URL}posts/`,
-		label: 'Posts'
-	},
-	{
-		link: `${import.meta.env.BASE_URL}projects/`,
-		label: 'Projects'
-	},
-	{
-		link: `${import.meta.env.BASE_URL}tags/`,
-		label: 'Tags'
-	},
+    link: `${base}about/`,
+    label: 'About'
+  },
+  {
+    link: `${base}posts/`,
+    label: 'Posts'
+  },
+  {
+    link: `${base}projects/`,
+    label: 'Projects'
+  },
+  {
+    link: `${base}tags/`,
+    label: 'Tags'
+  }
 ];
 ---
 
