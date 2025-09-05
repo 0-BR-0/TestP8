@@ -17,4 +17,4 @@ export default defineConfig({
       domain: 'localhost:4321'
     }]]
   }
-});
+}); 
