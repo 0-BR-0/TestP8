@@ -1,7 +1,7 @@
 ---
-import * as BaseHead from './components/BaseHead.astro';
-import * as Header from './components/Header.astro';
-import * as Footer from './components/Footer.astro';
+import BaseHead from './components/BaseHead.astro';
+import Header from './components/Header.astro';
+import Footer from './components/Footer.astro';
 import { loadEnv } from 'vite';
 
 const { GTAG_MEASUREMENT_ID } = loadEnv(process.env.NODE_ENV || 'production', process.cwd(), '');
